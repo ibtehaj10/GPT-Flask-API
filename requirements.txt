@@ -1,0 +1,5 @@
+openai
+jsonpickle
+pandas
+Flask
+pandas
