@@ -17,20 +17,18 @@ There 3 main endpoint
 `/chat`
 ---------
 
-` curl --location 'http://localhost:5000/chat' \
+` curl --location '{baseURL}/chat' \
 --header 'Content-Type: application/json' \
 --data '{
     "user_id":"Hamza",
-    "prompt":"my name ibtehaj khan I live in New York"
-
-}' `
+    "prompt":"my name ibtehaj khan I live in New York" }'`
 
 
 
 `/get_chats`
 -----------
 
-`curl --location 'http://localhost:5000/get_chats' \
+`curl --location '{baseURL}/get_chats' \
 --header 'Content-Type: application/json' \
 --data '{
     "user_id":"Hamza"
