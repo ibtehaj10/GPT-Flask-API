@@ -37,7 +37,7 @@ There 3 main endpoint
 `delete_chats`
 --------------
 
-`curl --location 'http://localhost:5000/delete_chats' \
+`curl --location '{baseURL}/delete_chats' \
 --header 'Content-Type: application/json' \
 --data '{
     "user_id":"Hamza"
