@@ -2,7 +2,7 @@ RUN FLASK APP
 --------------
 
 Step 1: Put OPEN AI APIKEY in `api.py` file. <br>
-Step 2: type command `flask run` in your terminal.
+Step 2: type command `python app.py` in your terminal.
 
 
 ENDPOINTS
